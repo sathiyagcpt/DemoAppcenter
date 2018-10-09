@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScoularDemo.StartPage">
+    
+    
+    <ContentPage.Content>
+
+
+        <StackLayout Orientation="Vertical" Spacing="25" VerticalOptions="Center" HorizontalOptions="Center" Margin="20,0,20,0">
+
+            <!--<Image Source="ScoularLogo.png" Margin="20,0,20,20" HorizontalOptions="Start" VerticalOptions="Start"></Image>-->
+
+
+            <!--<StackLayout BackgroundColor="Black" Padding="2">
+                <Frame CornerRadius="5" Padding="0" BackgroundColor="White">-->
+                    <StackLayout Orientation="Horizontal" Spacing="20" Padding="10">
+                        <Image Source="Market.png" HorizontalOptions="Start" VerticalOptions="Center"></Image>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="Markets" FontAttributes="Bold" TextColor="Black" FontSize="Medium"></Label>
+                            <Label Text="View bids for all Scoular Locations" TextColor="Black" FontSize="Small"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                <!--</Frame>
+            </StackLayout>-->
+
+
+            <!--<StackLayout BackgroundColor="Black" Padding="2">
+                <Frame CornerRadius="5" Padding="0" BackgroundColor="White">-->
+            <StackLayout Orientation="Horizontal" Spacing="20"  Padding="10">
+                        <Image Source="contract.png" HorizontalOptions="Start" VerticalOptions="Center"></Image>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="Contracts" FontAttributes="Bold" TextColor="Black" FontSize="Medium"></Label>
+                            <Label Text="Confirm new contracts and contract amendments" TextColor="Black" FontSize="Small"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                <!--</Frame>
+            </StackLayout>-->
+
+            <!--<StackLayout BackgroundColor="Black" Padding="2">
+                <Frame CornerRadius="5" Padding="0" BackgroundColor="White">-->
+            <StackLayout Orientation="Horizontal" Spacing="20"  Padding="10">
+                        <Image Source="farmld.png" HorizontalOptions="Start" VerticalOptions="Center"></Image>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="Farm Loads" FontAttributes="Bold" TextColor="Black" FontSize="Medium"></Label>
+                            <Label Text="Request field Pick ups, track trucker location, view scale tickets and more" TextColor="Black" FontSize="Small"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                <!--</Frame>
+            </StackLayout>-->
+            <Button HeightRequest="60" VerticalOptions="End" HorizontalOptions="FillAndExpand" Text="Let's Get Started" FontAttributes="Bold" FontSize="Medium" TextColor="White" BackgroundColor="#9c6025"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
